@@ -1,0 +1,46 @@
+<html>
+<head>
+    
+    <title>Red circle and Squres</title>
+    
+    <script type="text/javascript" src="jquery-3.4.1.js"></script>
+    
+    <style>
+    
+        .shape{
+            height: 100px;
+            width:100px;
+        }
+        #redcircle{
+            background-color: red;
+            border-radius: 50%;   
+        }
+    </style>
+    
+    </head>
+    <body>
+        <div class="shape" id="redcircle"><br>
+        
+            </div>
+        <p id=text>some text is written down</p>
+        
+        <script type=text/javascript>
+        
+        $(".shape").click(function(){
+             $("#text").html("I am circle above you");
+        
+           // $("#redcircle").css('background-color','yellow');
+            $(this).css("display","none");
+            
+        });
+        
+        
+        
+        
+        </script>
+    
+    
+    
+    </body>
+
+</html>
