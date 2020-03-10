@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>disappear shapes</title>
+    <script src="jquery3.4.js"></script>
+    <style>
+        #circle{
+            
+            background-color: rebeccapurple;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+    
+    </style>
+    </head>
+    <body>
+    
+    <div id=circle></div>
+    <script type="text/javascript">
+        
+        $("#circle").click(function(){
+           if( $(this).attr("id")=="circle"){
+               alert("You clicked the cricle");
+           }
+        });
+        
+        </script>
+    
+    </body>
+
+</html>
